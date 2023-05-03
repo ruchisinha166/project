@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Updating__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Updating</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>System Admin</fullName>
+                <default>false</default>
+                <label>System Admin</label>
+            </value>
+            <value>
+                <fullName>Telecallers</fullName>
+                <default>false</default>
+                <label>Telecallers</label>
+            </value>
+            <value>
+                <fullName>Reception</fullName>
+                <default>false</default>
+                <label>Reception</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

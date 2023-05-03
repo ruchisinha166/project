@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_number_has_to_have_country_code</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK(Phone)),
+  NOT(REGEX(Phone, &quot;^\\+\\d{1,3}\\s\\d{4,}$&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Country code is mandatory for this field</errorMessage>
+</ValidationRule>

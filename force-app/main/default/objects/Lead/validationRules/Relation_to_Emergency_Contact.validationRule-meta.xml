@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relation_to_Emergency_Contact</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISBLANK(Emergency_Contact_Name__c)),NOT(ISBLANK( Emergency_Contact_Number__c )),ISBLANK( Relation_to_Emergency_Contact__c) )</errorConditionFormula>
+    <errorDisplayField>Relation_to_Emergency_Contact__c</errorDisplayField>
+    <errorMessage>Please Enter Relation to Emergency Contact Field</errorMessage>
+</ValidationRule>

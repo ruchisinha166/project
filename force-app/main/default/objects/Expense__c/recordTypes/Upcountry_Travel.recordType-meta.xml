@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upcountry_Travel</fullName>
+    <active>false</active>
+    <label>Upcountry Travel</label>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Approval_Steps__c</picklist>
+        <values>
+            <fullName>Step 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Step 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Step 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>City_Type_c__c</picklist>
+        <values>
+            <fullName>A Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>City__c</picklist>
+        <values>
+            <fullName>Bangalore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chandigarh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chennai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delhi NCR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyderabad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lucknow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mohali</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mumbai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pune</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>India</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Expense_Type__c</picklist>
+        <values>
+            <fullName>Upcountry Travel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mode_of_Travel__c</picklist>
+        <values>
+            <fullName>1st Ac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-wheeler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AC Deluxe Bus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Economy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chair Car</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sleeper Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taxi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volvo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>personal 2-wheeler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>personal car</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middle East</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Adding Expense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved by NSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved by Reporting Person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attaching Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reassigned to Reporting Person by NSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rework by Reporting Person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent for Approval to NSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent for Approval to Reporting Person</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expense Added</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rework</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send for Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visits Attached</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stay_Type__c</picklist>
+        <values>
+            <fullName>Hotel Stay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self Arrangement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_Of_Expense_value__c</picklist>
+        <values>
+            <fullName>TA%2FDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upcountry Travel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

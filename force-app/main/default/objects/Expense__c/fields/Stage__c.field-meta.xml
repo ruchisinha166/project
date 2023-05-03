@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Adding Expense</fullName>
+                <default>false</default>
+                <label>Adding Expense</label>
+            </value>
+            <value>
+                <fullName>Attaching Visit</fullName>
+                <default>false</default>
+                <label>Attaching Visit</label>
+            </value>
+            <value>
+                <fullName>Rework by Reporting Person</fullName>
+                <default>false</default>
+                <label>Rework by Reporting Person</label>
+            </value>
+            <value>
+                <fullName>Sent for Approval to Reporting Person</fullName>
+                <default>false</default>
+                <label>Sent for Approval to Reporting Person</label>
+            </value>
+            <value>
+                <fullName>Approved by Reporting Person</fullName>
+                <default>false</default>
+                <label>Approved by Reporting Person</label>
+            </value>
+            <value>
+                <fullName>Reassigned to Reporting Person by NSM</fullName>
+                <default>false</default>
+                <label>Reassigned to Reporting Person by NSM</label>
+            </value>
+            <value>
+                <fullName>Sent for Approval to NSM</fullName>
+                <default>false</default>
+                <label>Sent for Approval to NSM</label>
+            </value>
+            <value>
+                <fullName>Approved by NSM</fullName>
+                <default>false</default>
+                <label>Approved by NSM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

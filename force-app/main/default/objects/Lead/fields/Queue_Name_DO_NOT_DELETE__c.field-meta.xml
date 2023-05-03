@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Queue_Name_DO_NOT_DELETE__c</fullName>
+    <description>DO NOT DELETE This Will be used To store queue Names and will escalate to another person in the same queue if
+the person will not log in within 3 days, except Sundays.</description>
+    <externalId>false</externalId>
+    <label>Queue Name DO NOT DELETE</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

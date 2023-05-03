@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Medica Tinsukia Team</name>
+    <queueMembers>
+        <users>
+            <user>mahima.pm@medica.com</user>
+            <user>ankit.dwivedi-etxq@force.com</user>
+            <user>rajender.kumar@medica.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

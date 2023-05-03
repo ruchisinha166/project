@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>0.8mm/HPL</fullName>
+        <default>false</default>
+        <label>0.8mm/HPL</label>
+    </customValue>
+    <customValue>
+        <fullName>1 mm/HPL</fullName>
+        <default>false</default>
+        <label>1 mm/HPL</label>
+    </customValue>
+    <customValue>
+        <fullName>Cubicles</fullName>
+        <default>false</default>
+        <label>Cubicles</label>
+    </customValue>
+    <customValue>
+        <fullName>Compact</fullName>
+        <default>false</default>
+        <label>Compact</label>
+    </customValue>
+    <customValue>
+        <fullName>Fascia</fullName>
+        <default>false</default>
+        <label>Fascia</label>
+    </customValue>
+    <customValue>
+        <fullName>Granex</fullName>
+        <default>false</default>
+        <label>Granex</label>
+    </customValue>
+    <customValue>
+        <fullName>Prelam</fullName>
+        <default>false</default>
+        <label>Prelam</label>
+    </customValue>
+    <masterLabel>Product Categories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

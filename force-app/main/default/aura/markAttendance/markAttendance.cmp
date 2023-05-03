@@ -1,0 +1,7 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:appHostable,forceCommunity:themeLayout,lightning:availableForFlowScreens" controller="markAttendanceController" access="global">
+	<aura:attribute name="isCheck" type="boolean"/>
+    <aura:attribute name="StartTime" type="Boolean" />
+    <aura:attribute name="isModalOpen" type="boolean" default="false"/>
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <c:attendanceComponent/>
+</aura:component>

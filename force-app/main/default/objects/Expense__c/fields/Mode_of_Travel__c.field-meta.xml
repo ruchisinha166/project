@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mode_of_Travel__c</fullName>
+    <externalId>false</externalId>
+    <label>Mode of Travel</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sleeper Class</fullName>
+                <default>false</default>
+                <label>Sleeper Class</label>
+            </value>
+            <value>
+                <fullName>Bus</fullName>
+                <default>false</default>
+                <label>Bus</label>
+            </value>
+            <value>
+                <fullName>AC Deluxe Bus</fullName>
+                <default>false</default>
+                <label>AC Deluxe Bus</label>
+            </value>
+            <value>
+                <fullName>3rd AC</fullName>
+                <default>false</default>
+                <label>3rd AC</label>
+            </value>
+            <value>
+                <fullName>Chair Car</fullName>
+                <default>false</default>
+                <label>Chair Car</label>
+            </value>
+            <value>
+                <fullName>Volvo</fullName>
+                <default>false</default>
+                <label>Volvo</label>
+            </value>
+            <value>
+                <fullName>Air Economy</fullName>
+                <default>false</default>
+                <label>Air Economy</label>
+            </value>
+            <value>
+                <fullName>2nd AC</fullName>
+                <default>false</default>
+                <label>2nd AC</label>
+            </value>
+            <value>
+                <fullName>1st Ac</fullName>
+                <default>false</default>
+                <label>1st Ac</label>
+            </value>
+            <value>
+                <fullName>Public</fullName>
+                <default>false</default>
+                <label>Public</label>
+            </value>
+            <value>
+                <fullName>Shared Auto</fullName>
+                <default>false</default>
+                <label>Shared Auto</label>
+            </value>
+            <value>
+                <fullName>personal 2-wheeler</fullName>
+                <default>false</default>
+                <label>personal 2-wheeler</label>
+            </value>
+            <value>
+                <fullName>4-wheeler</fullName>
+                <default>false</default>
+                <label>4-wheeler</label>
+            </value>
+            <value>
+                <fullName>Cab</fullName>
+                <default>false</default>
+                <label>Cab</label>
+            </value>
+            <value>
+                <fullName>personal car</fullName>
+                <default>false</default>
+                <label>personal car</label>
+            </value>
+            <value>
+                <fullName>Taxi</fullName>
+                <default>false</default>
+                <label>Taxi</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
